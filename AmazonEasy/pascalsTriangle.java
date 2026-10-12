@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class pascalsTriangle{
     public static void main(String[] args) {
         int ans[][] =new int[5][5];
