@@ -11,7 +11,7 @@ public class lexicographicallySmallest {
 
         for(int i=n-1; i>=0; i--){
             int add = Math.min(extra,25);
-
+            System.out.println(add);
             ans[i]+=add;
             extra-=add;
 
